@@ -1,7 +1,7 @@
 {
-  "name": "simplefolio",
+  "name": "simple-cv",
   "version": "1.0.1",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "Timofei Iurov's beautiful and responsive portfolio template and CV",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
@@ -9,15 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/tukumann/my_CV"
   },
-  "keywords": [],
-  "author": "Jacobo Martinez",
+  "keywords": [
+    "CV",
+    "Portfolio",
+    "Frontend",
+    "Work",
+    "Web"
+  ],
+  "author": "Timofei Iurov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
+    "url": "https://github.com/tukumann/my_CV/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://github.com/tukumann/my_CV#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
@@ -25,7 +31,6 @@
     "html-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
@@ -38,6 +43,7 @@
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",
+    "sass": "^1.44.0",
     "tilt.js": "^1.2.1"
   }
 }
